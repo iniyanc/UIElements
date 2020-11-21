@@ -1,8 +1,41 @@
+/* General */
 body {
     background-color: #f3f1f1;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif !important;
 }
 
+/* Main page */
+#links-container {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+span {
+    color: black;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.page-link {
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.page-link:hover {
+    background-color: rgb(221, 219, 219);
+}
+
+
+
+/* Form */
 #form-container {
     width: 100vw;
     
@@ -72,3 +105,23 @@ h1 {
     font-size: 13px;
     margin-top: 6px;
 }
+
+
+
+/* Table */
+.table {
+    max-width: 80%;
+}
+
+#tbl-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+
